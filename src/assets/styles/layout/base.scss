@@ -1,6 +1,5 @@
 
 @import "../../local_modules/normalize.css/normalize";
-// @import "../mixins/media";
 
 *,
 *::before,
@@ -31,6 +30,12 @@ img {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .wrapper {
